@@ -1,4 +1,4 @@
-package com.chatop.api.dto;
+package com.chatop.api.controller.dto.rental;
 
 import com.chatop.api.entity.Rental;
 import com.fasterxml.jackson.annotation.JsonFormat;

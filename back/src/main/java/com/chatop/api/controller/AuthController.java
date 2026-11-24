@@ -1,6 +1,10 @@
 package com.chatop.api.controller;
 
-import com.chatop.api.dto.*;
+import com.chatop.api.controller.dto.connection.AuthResponse;
+import com.chatop.api.controller.dto.connection.LoginRequest;
+import com.chatop.api.controller.dto.connection.RegisterRequest;
+import com.chatop.api.controller.dto.error.ErrorResponse;
+import com.chatop.api.controller.dto.user.UserResponse;
 import com.chatop.api.service.AuthService;
 import com.chatop.api.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;

@@ -1,6 +1,6 @@
 package com.chatop.api.service;
 
-import com.chatop.api.dto.MessageRequest;
+import com.chatop.api.controller.dto.message.MessageRequest;
 import com.chatop.api.entity.Message;
 import com.chatop.api.entity.Rental;
 import com.chatop.api.entity.User;

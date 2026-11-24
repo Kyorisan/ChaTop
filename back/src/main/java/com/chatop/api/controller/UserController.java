@@ -1,7 +1,7 @@
 package com.chatop.api.controller;
 
-import com.chatop.api.dto.ErrorResponse;
-import com.chatop.api.dto.UserResponse;
+import com.chatop.api.controller.dto.error.ErrorResponse;
+import com.chatop.api.controller.dto.user.UserResponse;
 import com.chatop.api.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

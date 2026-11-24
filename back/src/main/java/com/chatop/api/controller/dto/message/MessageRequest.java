@@ -1,4 +1,4 @@
-package com.chatop.api.dto;
+package com.chatop.api.controller.dto.message;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.NotBlank;
