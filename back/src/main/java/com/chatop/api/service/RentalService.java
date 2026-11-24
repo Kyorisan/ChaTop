@@ -1,9 +1,9 @@
 package com.chatop.api.service;
 
-import com.chatop.api.dto.RentalCreateRequest;
-import com.chatop.api.dto.RentalResponse;
-import com.chatop.api.dto.RentalUpdateRequest;
-import com.chatop.api.dto.RentalsResponse;
+import com.chatop.api.controller.dto.rental.RentalCreateRequest;
+import com.chatop.api.controller.dto.rental.RentalResponse;
+import com.chatop.api.controller.dto.rental.RentalUpdateRequest;
+import com.chatop.api.controller.dto.rental.RentalsResponse;
 import com.chatop.api.entity.Rental;
 import com.chatop.api.entity.User;
 import com.chatop.api.exception.ResourceNotFoundException;

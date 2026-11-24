@@ -1,6 +1,6 @@
 package com.chatop.api.service;
 
-import com.chatop.api.dto.UserResponse;
+import com.chatop.api.controller.dto.user.UserResponse;
 import com.chatop.api.exception.ResourceNotFoundException;
 import com.chatop.api.repository.UserRepository;
 import org.springframework.stereotype.Service;

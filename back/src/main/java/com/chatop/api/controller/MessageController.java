@@ -1,8 +1,8 @@
 package com.chatop.api.controller;
 
-import com.chatop.api.dto.ErrorResponse;
-import com.chatop.api.dto.MessageRequest;
-import com.chatop.api.dto.MessageResponse;
+import com.chatop.api.controller.dto.error.ErrorResponse;
+import com.chatop.api.controller.dto.message.MessageRequest;
+import com.chatop.api.controller.dto.message.MessageResponse;
 import com.chatop.api.service.MessageService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

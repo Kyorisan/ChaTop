@@ -1,4 +1,4 @@
-package com.chatop.api.dto;
+package com.chatop.api.controller.dto.user;
 
 import com.chatop.api.entity.User;
 import com.fasterxml.jackson.annotation.JsonFormat;

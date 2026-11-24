@@ -1,8 +1,8 @@
 package com.chatop.api.service;
 
-import com.chatop.api.dto.AuthResponse;
-import com.chatop.api.dto.LoginRequest;
-import com.chatop.api.dto.RegisterRequest;
+import com.chatop.api.controller.dto.connection.AuthResponse;
+import com.chatop.api.controller.dto.connection.LoginRequest;
+import com.chatop.api.controller.dto.connection.RegisterRequest;
 import com.chatop.api.entity.User;
 import com.chatop.api.exception.EmailAlreadyUsedException;
 import com.chatop.api.repository.UserRepository;

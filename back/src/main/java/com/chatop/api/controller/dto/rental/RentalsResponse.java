@@ -1,4 +1,4 @@
-package com.chatop.api.dto;
+package com.chatop.api.controller.dto.rental;
 
 import java.util.List;
 

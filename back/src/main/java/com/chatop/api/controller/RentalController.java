@@ -1,6 +1,11 @@
 package com.chatop.api.controller;
 
-import com.chatop.api.dto.*;
+import com.chatop.api.controller.dto.error.ErrorResponse;
+import com.chatop.api.controller.dto.message.MessageResponse;
+import com.chatop.api.controller.dto.rental.RentalCreateRequest;
+import com.chatop.api.controller.dto.rental.RentalResponse;
+import com.chatop.api.controller.dto.rental.RentalUpdateRequest;
+import com.chatop.api.controller.dto.rental.RentalsResponse;
 import com.chatop.api.service.RentalService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
